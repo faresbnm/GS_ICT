@@ -1,0 +1,232 @@
+body{
+    overflow-y:scroll;
+    overflow-x: hidden;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url("BG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    isolation: isolate;        
+
+}
+
+@keyframes first{
+    from{
+        opacity: 0;
+        top: 40%;
+        
+    }
+    to{
+        opacity: 100%;
+        top: 50%;
+    }
+}
+@keyframes bottotop{
+    from{
+        opacity: 0;
+        top: 130px;
+        
+    }
+    to{
+        opacity: 100%;
+        top: 97px;
+    }
+}
+@keyframes lefttoright{
+    from{
+        opacity: 0;
+        left: -200px;
+        
+    }
+    to{
+        opacity: 100%;
+        left: 100px;
+    }
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+.custom-navbar{
+    background: linear-gradient(130deg, rgba(0, 0, 0, 0.308),rgba(96, 96, 96, 0.3));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+nav img{
+    position: relative;
+    right:5%;
+    top: 30%;
+}
+
+nav h3{
+    color: rgb(59, 124, 255);
+    font-size: 40px;
+    text-shadow: 0 0 0.525em currentColor;
+    position: relative;
+    right: 10%;
+}
+
+nav h3::before{
+    content: '';
+    position: absolute;
+    background-color: currentColor;
+    width: 100%;
+    height: 100%;
+    top: 70%;
+    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+    filter: blur(1em);
+}
+
+.nav-item{
+    font-size: 112%; 
+    text-shadow: 0 0 05em rgb(59, 124, 255);
+
+}
+
+div.introbox{
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-shadow: 0 0 0.525em currentColor;
+    min-width: 300px;
+    text-align: center;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+.custom-container{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.custom-card{
+    text-shadow: 0 0 0.525em currentColor;
+    color: white;
+    box-shadow: 0 0 1 white;
+}
+.custom-container H2{
+    position: relative;
+    padding-bottom: 50px;
+    text-shadow: 0 0 0.525em currentColor;
+}
+
+.custom-container2{
+    position: absolute;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 0.525em currentColor;
+    top: 230%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.custom-container2 .row{
+    margin-top: 10%;
+}
+
+.custom-container2 h2,.custom-container2 h1{
+    text-decoration: none;
+}
+
+.container-contact{
+    position: absolute;
+    top: 670%;
+    box-shadow: 0 0 0.500em currentColor;
+    background-color: rgba(0, 0, 0, 0.594);
+    width: 30%;
+}
+.container-contact h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    color: white;
+    text-shadow: 0 0 0.500em currentColor;
+}
+.feed{
+    border: 2px solid white;
+    width: max-content;
+    height: 100%;
+}
+iframe{
+    position: absolute;
+    left: 53%;
+    top: 20%;
+    width: 21%;
+}
+
+.contact-card {
+    max-width: 40%;
+    height: fit-content;
+    margin: 0;
+    padding: 20px;
+    border: 3px solid #ddd;
+    box-shadow: 0 0 0.800em currentColor;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact-card p{
+    margin-left: 20%;
+    color: white;
+    text-shadow: 0 0 0.800em currentColor;
+  }
+  .contact-card i{
+    position: absolute;
+    padding-top: 0.3%;
+    text-shadow: 0 0 0.500em currentColor;
+    left: 28.5%;
+  }
+  .contact-form {
+    margin-top: 10%;
+    padding-bottom: 5%;
+    
+  }
+  .contact-form h3{
+    color: #3b7cff;
+    text-shadow:0 0 0.500em currentColor ;
+  }
+
+
+  .contact-form input,.contact-form textarea{
+    border: none;
+    border-bottom:5px solid #3b7cff;
+    border-radius: 0;
+    margin-top: 5%;
+  }
+
+  .contact-form .email,  .contact-form .name{
+    width: 54%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:791px){
+    .custom-container2 img{
+        display: none;
+    }
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(9, 11, 76);
+    border-radius: 10px;
+}

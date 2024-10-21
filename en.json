@@ -1,0 +1,50 @@
+
+{
+    "navbar": {
+      "home_nav": "Home",
+      "about_nav": "About",
+      "services_nav": "Services",
+      "partners_nav": "Partners",
+      "contact_nav": "Contact",
+      "darkmodetxt": "Appearance"
+    },
+    "introbox": {
+      "intro1": "Welcome to GS ICT Company",
+      "intro2": "IT problem? leave it to us.",
+      "intro3": "18 years of experience with over 100 projects done"
+    },
+    "about": {
+        "title": "About Us",
+        "title1": "Cost-effectiveness",
+        "content1": "We offer affordable IT solutions that help you reduce costs and improve your bottom line.",
+        "title2": "Innovative Technology",
+        "content2": "We stay up-to-date with the latest technology trends and offer innovative solutions that help you stay ahead of the competition.",
+        "title3": "Industry Expertise",
+        "content3": "We specialize in serving specific industries, such as healthcare, finance, or manufacturing, and offer tailored solutions that meet your unique needs.",
+        "title4": "Scalability",
+        "content4": "Our solutions are scalable and can grow with your business, ensuring that you get the most value out of your investment.",
+        "readmore": "Read More"
+      },
+
+      "services": {
+        
+      },
+
+      "partners": {
+        "title3": "Partners",
+        "txt1" : "Step into the realm of collaboration through our 14 Partners section.",
+        "txt2": "Here, we proudly present the individuals and organizations that magnify our capabilities and expand our horizons.",
+        "txt3": "About Our Partnerships:",
+        "txt4": "Our partnerships are the backbone of our journey towards excellence. We believe that by joining forces with like-minded organizations and individuals, we can achieve far more than we could alone. Each partner brings a unique perspective, a wealth of knowledge, and a shared commitment to making a difference. Together, we strive to innovate, elevate, and leave a lasting impact on the industries and communities we serve."
+      },
+      "contact": {
+        "local": "Staoueli Algiers",
+        "cardtitle": "Keep in touch",
+        "name": "Fullname",
+        "num": "Phone number",
+        "sub": "Send"
+      },
+      "footer": {
+        "footertxt": "© 2023 GS ICT company. All rights reserved."
+      }
+}

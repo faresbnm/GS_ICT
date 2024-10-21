@@ -1,0 +1,52 @@
+{
+    "navbar": {
+      "home_nav": "Accueil",
+      "about_nav": "A propos",
+      "services_nav": "Services",
+      "partners_nav": "Partenaires",
+      "contact_nav": "Contact",
+      "darkmodetxt": "Apparence"
+
+    },
+    "introbox": {
+      "intro1": "Bienvenue à GS ICT",
+      "intro2": "probleme informatique? Nous avons la solution.",
+      "intro3": "18 ans d'experience avec plus de 100 projets realisé"
+    },
+    
+    "about": {
+        "title": "A Propos de Nous",
+        "title1": "Rentabilité",
+        "content1": "Nous proposons des solutions informatiques abordables qui vous aident à réduire les coûts et à améliorer votre rentabilité.",
+        "title2": "Technologie Innovante",
+        "content2": "Nous restons à jour avec les dernières tendances technologiques et proposons des solutions innovantes qui vous aident à rester en avance sur la concurrence.",
+        "title3": "Compétence sectorielle",
+        "content3": "Nous nous spécialisons dans le service de secteurs spécifiques, tels que la santé, la finance ou la fabrication, et proposons des solutions sur mesure qui répondent à vos besoins uniques.",
+        "title4": "Extensibilité",
+        "content4": "Nos solutions sont évolutives et peuvent suivre la croissance de votre entreprise, vous assurant ainsi d'obtenir la meilleure valeur de votre investissement.",
+        "readmore": "Afficher plus"
+      },
+
+      "services": {
+
+      },
+
+      "partners": {
+        "title3": "Partenaires",
+        "txt1" : "Plongez dans le domaine de la collaboration grâce à notre section des 14 partenaires.",
+        "txt2": "Ici, nous présentons fièrement les individus et les organisations qui amplifient nos capacités et élargissent nos horizons",
+        "txt3": "A propos de Nos Partenaires:",
+        "txt4": "Nos partenariats sont la colonne vertébrale de notre voyage vers l'excellence. Nous croyons qu'en unissant nos forces avec des organisations et des individus partageant les mêmes valeurs, nous pouvons accomplir bien plus que seul. Chaque partenaire apporte une perspective unique, une richesse de connaissances et un engagement commun à faire la différence. Ensemble, nous nous efforçons d'innover, de nous élever et de laisser une empreinte durable dans les industries et les communautés que nous servons."
+      },
+
+      "contact": {
+        "local": "Staoueli Alger",
+        "cardtitle": "Contactez-Nous !",
+        "name": "Nom et Prénom",
+        "num": "Téléphone",
+        "sub": "Envoyer"
+      },
+      "footer": {
+        "footertxt": "© 2023 Société GS ICT. Tous droits résérvés."
+      }
+}
